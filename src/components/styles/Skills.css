@@ -1,0 +1,7 @@
+.skill {
+  filter: grayscale(100%);
+}
+
+.skill:hover {
+  filter: grayscale(0%);
+}

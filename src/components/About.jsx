@@ -1,7 +1,7 @@
 import "./styles/About.css";
-import linkedin from "./../assets/linkedin48.png";
-import github from "./../assets/github.png";
-import email from "./../assets/email.png";
+import linkedin from "./../assets/socials/linkedin48.png";
+import github from "./../assets/socials/github.png";
+import email from "./../assets/socials/email.png";
 export default function About() {
   return (
     <div className="justify-center items-center">
