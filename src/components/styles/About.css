@@ -1,0 +1,7 @@
+.socials {
+  opacity: 0.3;
+}
+
+.socials:hover {
+  opacity: 1;
+}
