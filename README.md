@@ -1,8 +1,8 @@
 # Todo List:
 - [x] Name
 - [x] Socials
-- [ ] Skills
-- [ ] Projects
+- [x] Skills
+- [x] Projects
 - [ ] Experience
 
 
