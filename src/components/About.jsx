@@ -5,10 +5,10 @@ import email from "./../assets/socials/email.png";
 export default function About() {
   return (
     <div className="justify-center items-center">
-      <h1 className=" text-mtblue text-7xl text-center font-bold pb-5">
+      <h1 className=" text-heading text-7xl text-center font-bold pb-5">
         Joshua Bernal
       </h1>
-      <h1 className="text-center text-3xl text-mtblue ">
+      <h1 className="text-center text-3xl text-heading ">
         Student at University of Maryland, Baltimore County
       </h1>
 

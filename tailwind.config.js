@@ -6,7 +6,14 @@ export default {
     "./src/components/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: { colors: { mtblue: "#e1e4e9" } },
+    extend: {
+      colors: {
+        heading: "#e1e4e9",
+        sub: "#939eae",
+        card: "#2e343d",
+        pink8008: "#f44c7f",
+      },
+    },
   },
   plugins: [require("autoprefixer"), require("tailwindcss")],
 };

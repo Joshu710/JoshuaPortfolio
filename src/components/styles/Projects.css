@@ -1,4 +1,15 @@
-.projects {
-  display: block;
-  margin: 0 auto;
+.col {
+  display: grid;
+  flex: auto;
+  margin: 10px;
+  object-fit: cover;
+}
+
+.cards {
+  background-color: red;
+}
+
+.langs {
+  flex: auto;
+  margin: 5px;
 }
