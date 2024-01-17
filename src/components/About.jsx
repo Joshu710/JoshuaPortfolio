@@ -4,11 +4,14 @@ import github from "./../assets/socials/github.png";
 import email from "./../assets/socials/email.png";
 export default function About() {
   return (
-    <div className="justify-center items-center">
-      <h1 className=" text-heading text-7xl text-center font-bold pb-5">
-        Joshua Bernal
-      </h1>
-      <h1 className="text-center text-3xl text-heading ">
+    <div className="justify-center items-center place-items-center block">
+      <div className="wrapper">
+        <h1 className="typing text-heading text-7xl text-center font-bold pb-5">
+          Joshua Bernal
+        </h1>
+      </div>
+
+      <h1 className="text-center text-3xl text-heading">
         Student at University of Maryland, Baltimore County
       </h1>
 

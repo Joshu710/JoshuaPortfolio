@@ -1,6 +1,5 @@
 .skill {
   filter: grayscale(100%);
-  margin: 0 10px;
 }
 
 .skill:hover {

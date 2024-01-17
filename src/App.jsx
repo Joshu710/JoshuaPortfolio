@@ -8,6 +8,8 @@ import Projects from "./components/Projects";
 import MyFooter from "./components/MyFooter";
 import About from "./components/About";
 import Skills from "./components/Skills";
+import Exp from "./components/Exp";
+import Education from "./components/Education";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -18,6 +20,7 @@ function App() {
         <About></About>
       </div>
 
+      <Education></Education>
       <Skills></Skills>
       <Projects></Projects>
       <MyFooter></MyFooter>

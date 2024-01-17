@@ -7,37 +7,38 @@ import python from "./../assets/skills/python.svg";
 import react from "./../assets/skills/react.svg";
 import cpp from "./../assets/skills/cplusplus.svg";
 import "./styles/Skills.css";
+import { Card } from "flowbite-react";
 export default function Skills() {
   return (
     <div className="w-10/12 h-9/12 mx-auto">
-      <h1 className=" text-heading font-extrabold text-4xl underline">
+      <h1 className=" text-heading text-center font-extrabold text-6xl">
         Skills
       </h1>
-      <div className="my-12 max-w-full max-h-full flex">
-        <div className="flex-auto">
-          <img className="skill" src={python}></img>
-        </div>
-        <div className="flex-auto">
-          <img className="skill" src={cpp}></img>
-        </div>
-        <div className="flex-auto">
-          <img className="skill" src={html}></img>
-        </div>
-        <div className="flex-auto">
-          <img className="skill" src={js}></img>
-        </div>
-        <div className="flex-auto">
-          <img className="skill" src={css}></img>
-        </div>
-        <div className="flex-auto">
-          <img className="skill" src={react}></img>
-        </div>
-        <div className="flex-auto">
-          <img className="skill" src={django}></img>
-        </div>
-        <div className="flex-auto">
-          <img className="skill" src={flask}></img>
-        </div>
+      <div className="flex my-12  justify-center space-x-2 space-y-2 flex-wrap">
+        <Card className="flex-none m-2 !bg-card h-36 w-36 brightness-100 hover:brightness-200">
+          <img src={python}></img>
+        </Card>
+        <Card className="flex-none !bg-card h-36 w-36 brightness-100 hover:brightness-200">
+          <img src={cpp}></img>
+        </Card>
+        <Card className="flex-none !bg-card h-36 w-36 brightness-100 hover:brightness-200">
+          <img src={html}></img>
+        </Card>
+        <Card className="flex-none !bg-card h-36 w-36 brightness-100 hover:brightness-200">
+          <img src={js}></img>
+        </Card>
+        <Card className="flex-none !bg-card h-36 w-36 brightness-100 hover:brightness-200">
+          <img src={css}></img>
+        </Card>
+        <Card className="flex-none !bg-card h-36 w-36 brightness-100 hover:brightness-200">
+          <img src={react}></img>
+        </Card>
+        <Card className="flex-none !bg-card h-36 w-36 brightness-100 hover:brightness-200">
+          <img src={django}></img>
+        </Card>
+        <Card className="flex-none !bg-card h-36 w-36 brightness-100 hover:brightness-200">
+          <img src={flask}></img>
+        </Card>
       </div>
     </div>
   );
