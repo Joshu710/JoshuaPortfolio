@@ -3,7 +3,7 @@
 - [x] Socials
 - [x] Skills
 - [x] Projects
-- [ ] Experience
+- [x] Experience
 
 
 
