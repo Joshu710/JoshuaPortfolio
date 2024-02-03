@@ -6,9 +6,13 @@
   opacity: 1;
 }
 
-.wrapper {
-  display: grid;
-  place-items: center;
+.name {
+  font-size: 4.5rem;
+  line-height: 1;
+}
+.desc {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .typing {
@@ -20,14 +24,6 @@
   margin-right: 0;
 }
 
-@media only screen and (max-width: 768px) {
-  .typing {
-    animation: none;
-    white-space: nowrap;
-    border-right: 3px solid;
-    margin-right: 0;
-  }
-}
 @keyframes typing {
   from {
     width: 0;
@@ -37,5 +33,20 @@
 @keyframes blink {
   50% {
     border-color: transparent;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .name {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+  .desc {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+  .bio {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
   }
 }

@@ -1,16 +1,9 @@
-.col {
-  width: 500px;
-  margin-top: 10px;
-  height: 800px;
-}
-
-.langs {
-  flex: auto;
-  margin: 5px;
+.umbc {
+  max-height: 24rem;
 }
 
 @media only screen and (max-width: 768px) {
-  .col {
+  .umbc {
     width: 350px;
     margin-top: 10px;
     height: 800px;

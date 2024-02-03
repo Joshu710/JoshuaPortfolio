@@ -20,6 +20,7 @@ function App() {
         <About></About>
       </div>
 
+      <Exp></Exp>
       <Education></Education>
       <Skills></Skills>
       <Projects></Projects>

@@ -11,7 +11,7 @@ import { Card } from "flowbite-react";
 export default function Skills() {
   return (
     <div className="w-10/12 h-9/12 mx-auto">
-      <h1 className=" text-heading text-center font-extrabold text-6xl">
+      <h1 className=" text-heading text-center font-extrabold text-4xl">
         Skills
       </h1>
       <div className="flex my-12  justify-center space-x-2 space-y-2 flex-wrap">
