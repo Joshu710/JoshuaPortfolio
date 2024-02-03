@@ -26,7 +26,7 @@ export default function Projects() {
           rounded
           imgAlt="Project1"
           imgSrc={chest}
-          className="!bg-card col mb-8"
+          className="!bg-card col mb-8 flex flex-col"
         >
           <h4 className="text-heading font-bold text-xl">
             Image-Based Pneumonia Detection
@@ -40,8 +40,9 @@ export default function Projects() {
               <img className="" src={python}></img>
             </Card>
           </div>
+
           <Button
-            className="!bg-pink8008"
+            className="!bg-pink8008 mt-auto"
             href="https://github.com/Joshu710/PneumoniaDetection"
             target="_blank"
           >
@@ -52,7 +53,7 @@ export default function Projects() {
           rounded
           imgAlt="Project2"
           imgSrc={webGame}
-          className="!bg-card col mb-8"
+          className="!bg-card col mb-8 flex flex-col"
         >
           <h4 className="text-heading font-bold text-xl">Web-Based Game</h4>
           <p className="text-sub">
@@ -77,7 +78,7 @@ export default function Projects() {
             </Card>
           </div>
           <Button
-            className="!bg-pink8008"
+            className="!bg-pink8008 mt-auto"
             href="https://github.com/Joshu710/UMBC_CMSC447Proj"
             target="_blank"
           >
@@ -88,7 +89,7 @@ export default function Projects() {
           rounded
           imgAlt="Project2"
           imgSrc={pweb}
-          className="!bg-card col mb-8"
+          className="!bg-card col mb-8 flex flex-col"
         >
           <h4 className="text-heading font-bold text-xl">Portfolio Website</h4>
           <p className="text-sub">
@@ -112,7 +113,7 @@ export default function Projects() {
           </div>
           <Button
             href="https://github.com/Joshu710/JoshuaPortfolio"
-            className="!bg-pink8008"
+            className="!bg-pink8008 mt-auto"
             target="_blank"
           >
             View on Github
@@ -123,7 +124,7 @@ export default function Projects() {
           rounded
           imgAlt="Project1"
           imgSrc={dbot}
-          className="!bg-card col mb-8"
+          className="!bg-card col mb-8 flex flex-col"
         >
           <h4 className="text-heading font-bold text-xl">
             Anime Search Discord Bot
@@ -138,7 +139,7 @@ export default function Projects() {
             </Card>
           </div>
           <Button
-            className="!bg-pink8008"
+            className="!bg-pink8008 mt-auto"
             href="https://github.com/Joshu710/Anime-Bot"
             target="_blank"
           >
@@ -150,7 +151,7 @@ export default function Projects() {
           rounded
           imgAlt="Project1"
           imgSrc={nfl}
-          className="!bg-card col mb-8"
+          className="!bg-card col mb-8 flex flex-col"
         >
           <h4 className="text-heading font-bold text-xl">
             NFL Passer Rating Calculator
@@ -165,7 +166,7 @@ export default function Projects() {
             </Card>
           </div>
           <Button
-            className="!bg-pink8008"
+            className="!bg-pink8008 mt-auto"
             href="https://github.com/Joshu710/QBR-Calc"
             target="_blank"
           >
