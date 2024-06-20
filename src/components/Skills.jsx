@@ -6,6 +6,8 @@ import js from "./../assets/skills/js.svg";
 import python from "./../assets/skills/python.svg";
 import react from "./../assets/skills/react.svg";
 import cpp from "./../assets/skills/cplusplus.svg";
+import mysql from "./../assets/skills/mysql.svg";
+import docker from "./../assets/skills/docker.svg";
 import "./styles/Skills.css";
 import { Card } from "flowbite-react";
 export default function Skills() {
@@ -38,6 +40,12 @@ export default function Skills() {
         </Card>
         <Card className="flex-none !bg-card h-36 w-36 brightness-100 hover:brightness-200">
           <img src={flask}></img>
+        </Card>
+        <Card className="flex-none !bg-card h-36 w-36 brightness-100 hover:brightness-200">
+          <img src={mysql}></img>
+        </Card>
+        <Card className="flex-none !bg-card h-36 w-36 brightness-100 hover:brightness-200">
+          <img src={docker}></img>
         </Card>
       </div>
     </div>

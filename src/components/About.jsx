@@ -11,13 +11,14 @@ export default function About() {
         </h1>
       </div>
       <h1 className="text-center desc text-heading">
-        Computer Science Student
+        Aspiring Software Developer
       </h1>
       <h2 className="text-center bio text-heading m-5 max-w-prose">
-        I am a current student pursuing my bachelors degree in computer science
-        at the University of Maryland, Baltimore County. I will be graduating in
-        May 2024. I have experience in web development, artifical intelligence,
-        and machine learning. Seeking full-time Software Engineering position.
+        I am a recent graduate of the University of Maryland, Baltimore County
+        with a Bachelors degree in Computer Science with a minor in Mathematics.
+        I will be graduating in May 2024. I have experience in web development,
+        artifical intelligence, and machine learning. Seeking full-time Software
+        Engineering position.
       </h2>
       <div className="flex justify-center pt-4">
         <a
